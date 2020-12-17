@@ -1,1 +1,2 @@
 
+& : cho biết vị trí ô nhớ
