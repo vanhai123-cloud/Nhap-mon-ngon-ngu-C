@@ -8,7 +8,7 @@ int dongia, soluong, thanhtien;
 scanf("%d", &dongia);
   printf("nhập số lượng\n");
 // hiển thị ra màn hình dòng nhập số lượng
-scanf("%d", & soluong);
+scanf("%d", &soluong);
 // dùng lệnh scanf để gán giá trị cho biến
 thanhtien = dongia * soluong;
 if (soluong >= 5 && dongia >= 500){
