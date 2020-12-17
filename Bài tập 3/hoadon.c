@@ -7,8 +7,8 @@ int main(){
 	printf("\nso luong: ",soluong);
 	scanf("%d",&soluong);//nhap so luong
 	thanhtien = dongia * soluong;
-	if(soluong>=5){//dieu kien
-		printf("thanh tien = %d",thanhtien * 75 /100 );
+	if(soluong>=5 & dongia>=500){//dieu kien
+		printf("thanh tien = %d",thanhtien * 50 /100 );
 	}else{
 		printf("thanh tien = %d",thanhtien);
 	}
