@@ -1,12 +1,16 @@
 #include<stdio.h>
 
 int main(){
-	int i;//khai bao bien so
-	int sum = 0;//khai bao bien tong
-	for( i = 1; i <= 10; i++)
-		{
-			sum = sum + i;//tinh tong
-		}
-		printf(" sum = %d", sum);//in ra man hinh tong
-	return 0;
+	int i;
+	int sum = 0;
+	int n;
+	printf("nhap n = ",n);
+	scanf("%d", &n);
+	for( i = 1; i <= n; i++)
+	{
+		sum = sum + i;
 	}
+	printf("sum = %d",sum);
+	return 0;
+}
+
