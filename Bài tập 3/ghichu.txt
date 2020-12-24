@@ -1,2 +1,3 @@
 có thể dùng switch hoặc if đều đc 2 cái khá giống nhau
 không thể viết case 1,2,3 mà phải chia ra case 1 case 2 case 3
+Đếm ++ là bằng Đếm = đếm + 1
