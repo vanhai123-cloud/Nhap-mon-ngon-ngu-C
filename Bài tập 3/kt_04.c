@@ -3,12 +3,14 @@
     int n, i, S = 0;
     printf("nhap n: ");
     scanf("%d", &n);
-    while (n != 0) // chuong trinh chay toi khi n = 0 thi dung
+    if ( n > 0) {
+        while (n != 0) 
     {
-        i = n % 10; // lay phan du cua n
+        i = n % 10;
         S += i;
         n = n / 10;
     }
         printf("tong cac chu so cua n la: %d", S);
+    } else printf("khong the chay chuong trinh!");
     return 0;
  }
