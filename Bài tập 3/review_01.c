@@ -1,10 +1,9 @@
 #include<stdio.h>
 
 int main(){
-	int n;/khai bao bien n
-	printf("nhap n: ",n);
+	int n;//khai bao bien n
+	printf("nhap n: ");
 	scanf("%d", &n);
-	if(n<=9){//dieu kien n
 		switch(n){
 			case 1:
 				printf("one");break;
@@ -24,13 +23,8 @@ int main(){
 				printf("eight");break;
 			case 9:
 				printf("nine");break;
+      default:
+        printf("greater than 9");break;
 		}
-		
-	}else{
-		printf("greater than 9",n);
-	}
-	
-	
-		
 	return 0;
 }
