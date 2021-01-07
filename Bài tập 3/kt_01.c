@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main (){
 int a, b, c;
-a = 1, b = 2, c = 3;
+a = 2, b = 3, c = 4;
 printf("Bang Cuu Chuong 1\n");
 //hiển thị ra dòng lệnh bảng cửu chương 1 
 printf("%d * 1 = %d\n", a, a * 1);
