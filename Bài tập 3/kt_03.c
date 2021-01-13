@@ -10,3 +10,16 @@ int main(){
   
   return 0;
 }
+#include<stdio.h>
+
+int main(){
+  int i ;
+  i = 1;
+  while( i <= 20 ){
+    if ((i == 5) || (i == 11) || (i == 15))continue;{
+    printf("%d ",i);
+    }
+    i++;
+  }
+  return 0;
+}
