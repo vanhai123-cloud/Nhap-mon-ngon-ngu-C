@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 int main () {
   int a[4];
   //mảng bắt đầu từ 0 và kết thúc ở bé hơn 4 
