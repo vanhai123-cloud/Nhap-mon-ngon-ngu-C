@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main () {
   int a[4];
   //mảng bắt đầu từ 0 và kết thúc ở bé hơn 4 
@@ -14,7 +16,7 @@ int main () {
     sum += a[i];
     //tính tổng các số trong mảng a[i]
   }
-    printf("%d ", sum);
+    printf("tong la: %d ", sum);
     //xuất các giá trị có trong mảng ra màn hình 
   return  0;
 }
