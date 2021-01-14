@@ -10,10 +10,13 @@ int main () {
     scanf("%d", &a[i]);
     //nhập số của mảng từ bàn phím
   }
+  int sum = 0;
   for (int i = 0; i < 4; i++) {
   //lặp lại vòng lặp i
-    printf("%d ", a[i]);
-    //xuất các giá trị có trong mảng ra màn hình 
+    sum += a[i];
+    //tính tổng các số trong mảng a[i]
   }
+    printf("%d ", sum);
+    //xuất các giá trị có trong mảng ra màn hình 
   return  0;
 }
