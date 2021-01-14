@@ -12,7 +12,7 @@ int main () {
   }
   for (int i = 0; i < 4; i++) {
   //lặp lại vòng lặp i
-    printf("%d, ", a[i]);
+    printf("%d ", a[i]);
     //xuất các giá trị có trong mảng ra màn hình 
   }
   return  0;
