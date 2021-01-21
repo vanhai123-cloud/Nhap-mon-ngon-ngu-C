@@ -3,42 +3,56 @@
 int main () {
   int a[100];
   int n;
-  printf ("nhap kich thuoc mang: ");
+  printf ("Nhap n = ");
   scanf ("%d", &n);
-  //mảng bắt đầu từ 0 và kết thúc ở bé hơn 4 
-  printf("nhap so a tu ban phim: ");
-  //hiển thị nhap 4 so tu ban phim ra màn hình
   for (int i = 0; i < n; i++) {
-  //vong lặp bắt đầu từ 0 và bé hơn 4 theo mang[4]
+    printf("Nhap phan tu %d = ", i + 1);
     scanf("%d", &a[i]);
-    //nhập số của mảng từ bàn phím
+    //nhâp các số trong mảng
   }
-  int chan = 0;
-  int le = 0;
-  printf ("dem cac so le: ");
-  // cho printf ở ngoài vòng lặp nếu 0 thì sẽ bị lặp lại liên tục
+    printf ("Mang a: ");
+    for (int i = 0; i < n; i++) {
+    printf ("%d ", a[i]);
+    //hiển thị các số có trong mảng ra màn hình
+  }
+    printf ("\n");
+  int chan, le, e, g, so;
+  chan = 0, le = 0, e = 0, g = 0, so = 0;
+  printf ("Dem cac so le: ");
+  // bỏ ngoài vòng lặp chứ 0 thì bị lặp liên tục
   for (int i = 0; i < n; i++) {
     if (a[i] % 2 != 0) {
-    //khi a[i] chia cho 2 khác 0 thì là số lẻ
+    // nếu a[i] chia hết cho 2 khác0 thì là số lẻ
       le += a[i];
-      //le = le + a[i] (tong cac so le)
-    printf ("%d ", a[i]);
-    //hiển thị dãy các số lẻ ra màn hình
+      //le = le + a[i] (tổng các số lẻ)
+      g++;
+      //g = g + 1 (đếm các số lẻ)
     }
   }
-  printf("\ndem cac so chan: ");
+    printf ("%d", g);
+    //hiển thị đếm các số lẻ
+  printf("\nDem cac so chan: ");
+  //bỏ ngoài vòng lặp nếu 0 sẽ bị lặp liên tục
   for (int i = 0; i < n; i++) {
-    if (a[i] % 2 == 0 ) {
-    //khi a[i] chia hết cho 2 dư 0 thì là số chẵn
-    printf ("%d ", a[i]);
-    //hiển thị dãy các số chẵn ra màn hình
+    if (a[i] % 2 == 0 && a[i] != 0) {
+    //nếu a[i] chia hết cho 2 dư 0 thì là số chẳn
       chan += a[i];
-      //chan = chan + a[i] (tổng các số chẵn)
+      //chan = chan + a[i] (tổng các số chăn)
+      e++;
+      //e = e + 1
     }
   }
-  printf ("\ntong cac so le: %d\n", le);
-  //hiển thì tổng các số chẵn ra màn hình
-  printf ("tong cac so chan: %d", chan);
-  //hiển thị tổng các số lẻ ra màn hình
+  printf ("%d", e);
+  //hiển thị đếm các số lẻ ra màn hình 
+  printf("\nDem cac so 0: ");
+  for (int i = 0; i < n; i++) {
+    if (a[i] == 0) {
+      so++;
+    }
+  }
+  printf ("%d", so);
+  //hiển thị đếm các số 0 ra màn hình 
+  printf ("\nTong cac so le: %d\n", le);
+  printf ("Tong cac so chan: %d", chan);
   return  0;
 }
