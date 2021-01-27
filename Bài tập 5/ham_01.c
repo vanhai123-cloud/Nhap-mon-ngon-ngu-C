@@ -1,22 +1,19 @@
-#include <stdio.h>
+#include <stdio.h>//khoi khai bao
 
-int sum (int a, int b, int c) {
-  int sum = 0;
-  sum = a + b + c;
-}
-void tong (int a, int b, int c) {
-  int sum = 0;
-  printf ("(ham void) tong cua a, b, c = %d\n", a + b + c);
-}
-int main () {
-  int x,y,z;
-  printf ("Nhap x = ");
-  scanf ("%d", &x);
-  printf ("Nhap y = ");
-  scanf ("%d", &y);
-  printf ("Nhap z = ");
-  scanf ("%d", &z);
-  tong (x, y, z);
-  printf ("(ham int) tong cua x, y, z = %d", sum (x, y, z));
+int sum(int a,int b,int c);//khai bao ham sum
+//khoi ham main
+int main(){
+  int x,y ,z ;
+  printf("nhap x = ");
+  scanf("%d", &x);
+  printf("nhap y = ");
+  scanf("%d",&y);
+  printf("nhap z = ");
+  scanf("%d",&z);
+  printf("x+y+z=%d",sum(x,y,z));//goi ham sum
   return 0;
+}
+//khoi dinh nghia ham
+int sum(int a,int b,int c){//dinh nghia ham sum
+  return a+b+c;
 }
