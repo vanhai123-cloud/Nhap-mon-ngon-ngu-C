@@ -25,11 +25,13 @@ int giaithua = 1;
 }
 
 int main () {
+  printf ("nhap n = ");
   int n;
   scanf ("%d", &n);
   int arr[100];
   for (int i = 0; i < n; i++) {
-  scanf ("%d", &arr[i]);
+    printf ("gia tri mang %d = ", i + 1 );
+    scanf ("%d", &arr[i]);
   }
   //khai báo giá trị. Nhập số n và arr[] từ bàn phím
   printf ("phan tu lon nhat = %d\n", LN_n(n, arr));
