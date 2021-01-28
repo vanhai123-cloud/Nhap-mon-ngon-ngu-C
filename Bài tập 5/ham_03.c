@@ -8,6 +8,8 @@ void Nhap_pt_mang(int n, int a[])
     }
     
 }
+//nhập các phần tử trong mảng
+
 void Hien_thi_pt_mang(int n, int a[])
 {
     printf("Cac phan tu trong mang: ");
@@ -17,6 +19,8 @@ void Hien_thi_pt_mang(int n, int a[])
     }
     
 }
+//hiển thị các phần tử có trong mảng
+    
 void Hien_thi_tong_chan(int n, int a[])
 {
     int S = 0;
@@ -26,9 +30,10 @@ void Hien_thi_tong_chan(int n, int a[])
             S += a[i];
         }
     }
-    printf("\nTong cac so chan la: %d", S);
-    
+    printf("\nTong cac so chan la: %d", S); 
 }
+//tổng chẵn lẽ của các phần tử có trong mảng
+
 void Dem_chan_le_0(int n, int a[])
 {
     int demchan = 0, demle = 0, dem0 = 0;
@@ -44,6 +49,8 @@ void Dem_chan_le_0(int n, int a[])
     printf("\nCo tat ca %d so chan, %d so le va %d so 0", demchan, demle, dem0);
     
 }
+//đếm các số chẵn và số lẻ có trong mảng
+
 int main(){
   int n;
   printf("Nhap n = ");
