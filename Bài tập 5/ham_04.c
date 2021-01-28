@@ -28,9 +28,9 @@ int main () {
   printf ("nhap n = ");
   int n;
   scanf ("%d", &n);
-  int arr[100];
+  int arr[n];
   for (int i = 0; i < n; i++) {
-    printf ("gia tri mang %d = ", i + 1 );
+    printf ("gia tri mang %d = ", i);
     scanf ("%d", &arr[i]);
   }
   //khai báo giá trị. Nhập số n và arr[] từ bàn phím
