@@ -1,0 +1,32 @@
+CÂU 1
+
+Khái niệm biến:
+
+Biến là vùng bộ nhớ được cấp phát dùng để lưu trữ giá trị cho một kiểu dữ liệu nào đó tại một thời điểm nhất định và nó được truy xuất thông qua một tên đã được khai báo cho biến đó, một biến trong ngôn ngữ lập trình C trước khi được sử dụng nó phải được khai báo ở đầu mỗi khối lệnh.
+
+Cú pháp khai bao biến:
+  Kiểu_dữ_liệu Tên _biến;
+
+CÂU 2
+
+Khái niệm biến toàn cục:
+
+Các biến được khai báo ở bên ngoài tất cả các hàm thì được gọi là biến toàn cục (external  or global variable). Các biến toàn cục có thể truy xuất và sử dụng ở mọi hàm trong chương trình. Biến toàn cục cũng tồn tại cho tới khi chương trình kết thúc.
+Khái niệm biến cục bộ:
+
+Các biến được khai báo trong 1 khối code thuộc lớp lưu trữ tự động (automatic or local variable) – hay chính là các biến cục bộ. Các biến cục bộ này chỉ tồn tại và chỉ có thể sử dụng bên trong khối code đó trong khi khối code đó đang thực thi.
+
+CÂU 3
+
+Khái niệm hàm:
+
+Hàm là một khối lệnh(nhiều lệnh)thực hiện một nhiệm vụ cụ thể nào đó(tính tổng,hiển thị thông báo người dùng...)
+Một cách hiểu khác về hàm:hàm là việc chia nhỏ nhiều chương trình.
+
+Phân loại hàm:có 2 loại
+
+Hàm thư viện chuẩn(standar library functions)
+  Là các hàm được xây dựng sẵn trong ngôn ngữ c như hàm scanf,printf...
+  Các hàm này được định nghĩa trong các tập tin có phần mở rộng .h như stdio.h hay conio.h ... các tập tin này phải được gộp vào chương trình thông qua chỉ định #include.
+
+Hàm do người dùng định nghĩa(user-defined functions):định nghĩa theo nhu cầu người dùng.
