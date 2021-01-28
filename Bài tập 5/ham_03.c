@@ -1,6 +1,11 @@
-//****************************************CODE**********
 //Khoi khai bao
 #include<stdio.h>
+void NhapMang(int a[], int n){
+  for(int i = 0; i < n; i ++){
+    printf("nhap mang a[%d]", i);
+    scanf("%d", &a[i]);
+  }
+}
 
  //khoi ham main
 int main(){
@@ -14,7 +19,3 @@ int main(){
   Dem_chan_le_0(a);
   return 0;
 }
-
-// khoi dinh nghia ham
-
-//*************************END CODE*****************************
